@@ -9,12 +9,12 @@ int main()
 
     std::string firstName, lastName;
 
-    std::cout << "Введите имя: ";
+    std::cout << "Р’РІРµРґРёС‚Рµ РёРјСЏ: ";
     std::cin >> firstName;
-    std::cout << "Введите фамилию: ";
+    std::cout << "Р’РІРµРґРёС‚Рµ С„Р°РјРёР»РёСЋ: ";
     std::cin >> lastName;
 
-    std::string greeting = "Здравствуйте, " + firstName + " " + lastName + "!";
+    std::string greeting = "Р—РґСЂР°РІСЃС‚РІСѓР№С‚Рµ, " + firstName + " " + lastName + "!";
     std::cout << greeting << std::endl;
 
     return 0;
